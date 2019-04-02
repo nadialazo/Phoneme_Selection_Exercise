@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Phoneme Selection Exercise</title>
+</head>
+
+<body>
+    <h1>Phoneme Selection Exercise</h1>
+    <p id="display"></p>
+
+    <script>
+        let newArray = ["ma", "pa", "ja", "la", "sa", "va", "she", "sir", "scr", "sip", "lip", "ipt", "sos", "si  ", " is ", "sit", "maw", "awe", "paw", "caw", "some"];
+        let thirdElement = ""
+
+        for (i = 2; i <= newArray.length; i += 3) {
+           thirdElement += newArray[i];
+        }
+
+    document.getElementById("display").innerHTML = thirdElement;
+
+
+    </script>
+
+</body>
+
+</html>
